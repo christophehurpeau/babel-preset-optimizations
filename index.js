@@ -3,7 +3,7 @@ const pluginMinifyDeadCodeElimination = require('babel-plugin-minify-dead-code-e
 const pluginMinifyGuardedExpressions = require('babel-plugin-minify-guarded-expressions');
 const pluginTransformInlineConsecutiveAdds = require('babel-plugin-transform-inline-consecutive-adds');
 
-const useDefault = thing => thing.default || thing;
+const useDefault = obj => (obj.__esModule ? obj.default : obj);
 
 module.exports = function (context, opts = {}) {
   return {
