@@ -1,17 +1,17 @@
-const pluginMinifyConstantFolding = require('babel-plugin-minify-constant-folding');
-const pluginMinifyDeadCodeElimination = require('babel-plugin-minify-dead-code-elimination');
-const pluginMinifyGuardedExpressions = require('babel-plugin-minify-guarded-expressions');
-const pluginTransformInlineConsecutiveAdds = require('babel-plugin-transform-inline-consecutive-adds');
-
 const useDefault = obj => (obj.__esModule ? obj.default : obj);
+const pluginMinifyConstantFolding = useDefault(require('babel-plugin-minify-constant-folding'));
+const pluginMinifyDeadCodeElimination = useDefault(require('babel-plugin-minify-dead-code-elimination'));
+const pluginMinifyGuardedExpressions = useDefault(require('babel-plugin-minify-guarded-expressions'));
+const pluginTransformInlineConsecutiveAdds = useDefault(require('babel-plugin-transform-inline-consecutive-adds'));
+
 
 module.exports = function (context, opts = {}) {
   return {
     plugins: [
-      useDefault(pluginMinifyConstantFolding),
-      useDefault(pluginMinifyDeadCodeElimination),
-      useDefault(pluginMinifyGuardedExpressions),
-      useDefault(pluginTransformInlineConsecutiveAdds),
+      pluginMinifyConstantFolding,
+      pluginMinifyDeadCodeElimination,
+      pluginMinifyGuardedExpressions,
+      pluginTransformInlineConsecutiveAdds,
     ],
   };
 };
