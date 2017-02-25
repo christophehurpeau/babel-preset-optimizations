@@ -5,6 +5,10 @@ Babel preset for optimizations only babili plugins, usefull for nodejs target.
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 
+### Options
+
+- `keepFnName`: Prevent plugin from removing function name (Enabled by default).
+
 ## Content
 
 - [babel-plugin-minify-constant-folding](https://www.npmjs.com/package/babel-plugin-minify-constant-folding)

@@ -1,15 +1,17 @@
-const useDefault = obj => (obj.__esModule ? obj.default : obj);
-const pluginMinifyConstantFolding = useDefault(require('babel-plugin-minify-constant-folding'));
-const pluginMinifyDeadCodeElimination = useDefault(require('babel-plugin-minify-dead-code-elimination'));
-const pluginMinifyGuardedExpressions = useDefault(require('babel-plugin-minify-guarded-expressions'));
-const pluginTransformInlineConsecutiveAdds = useDefault(require('babel-plugin-transform-inline-consecutive-adds'));
+const pluginMinifyConstantFolding = require('babel-plugin-minify-constant-folding');
+const pluginMinifyDeadCodeElimination = require('babel-plugin-minify-dead-code-elimination');
+const pluginMinifyGuardedExpressions = require('babel-plugin-minify-guarded-expressions');
+const pluginTransformInlineConsecutiveAdds = require('babel-plugin-transform-inline-consecutive-adds');
 
 
 module.exports = function (context, opts = {}) {
+  const keepFnName = opts.keepFnName !== undefined ? opts.keepFnName : true;
+  if (typeof keepFnName !== 'boolean') throw new Error("Preset modern-browsers 'keepFnName' option must be a boolean.");
+
   return {
     plugins: [
       pluginMinifyConstantFolding,
-      pluginMinifyDeadCodeElimination,
+      [pluginMinifyDeadCodeElimination, { keepFnName }],
       pluginMinifyGuardedExpressions,
       pluginTransformInlineConsecutiveAdds,
     ],
