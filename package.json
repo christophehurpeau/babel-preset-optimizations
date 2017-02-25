@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-babili-optimizations",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Babel preset for optimizations only babili plugins",
   "keywords": [
     "babel-preset"

@@ -1,3 +1,12 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/christophehurpeau/babel-preset-babili-optimizations/compare/v0.1.2...v0.2.0) (2017-02-25)
+
+
+### Features
+
+* add option keepFnName and remove useDefault ([add672d](https://github.com/christophehurpeau/babel-preset-babili-optimizations/commit/add672d))
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/christophehurpeau/babel-preset-babili-optimizations/compare/v0.1.1...v0.1.2) (2017-02-21)
 
