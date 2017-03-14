@@ -1,5 +1,7 @@
 # babel-preset-babili-optimizations [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/babel-preset-babili-optimizations.svg)](https://greenkeeper.io/)
+
 Babel preset for optimizations only babili plugins, usefull for nodejs target.
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
