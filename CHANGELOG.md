@@ -1,3 +1,12 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.0.0...v1.0.1) (2017-08-15)
+
+
+### Bug Fixes
+
+* error keepFnName option must be a boolean fix preset name ([58ead28](https://github.com/christophehurpeau/babel-preset-optimizations/commit/58ead28))
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v0.2.0...v1.0.0) (2017-08-15)
 
