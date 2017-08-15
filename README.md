@@ -1,6 +1,6 @@
-# babel-preset-babili-optimizations [![NPM version][npm-image]][npm-url]
+# babel-preset-optimizations [![NPM version][npm-image]][npm-url]
 
-Babel preset for optimizations only babili plugins, usefull for nodejs target.
+Babel preset for optimizations only babel-minify plugins
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
@@ -49,9 +49,9 @@ require("babel-core").transform("code", {
 });
 ```
 
-[npm-image]: https://img.shields.io/npm/v/babel-preset-babili-optimizations.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/babel-preset-babili-optimizations
-[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-babili-optimizations.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-babili-optimizations
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-babili-optimizations/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-babili-optimizations
+[npm-image]: https://img.shields.io/npm/v/babel-preset-optimizations.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/babel-preset-optimizations
+[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-optimizations.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-optimizations
+[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations/badge?style=flat-square
+[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations
