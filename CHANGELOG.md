@@ -1,3 +1,13 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v0.2.0...v1.0.0) (2017-08-15)
+
+
+### Features
+
+* rename to babel-preset-optimizations and pob update ([bb494e6](https://github.com/christophehurpeau/babel-preset-optimizations/commit/bb494e6))
+* update babel-minify plugins ([4c0ea16](https://github.com/christophehurpeau/babel-preset-optimizations/commit/4c0ea16))
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/christophehurpeau/babel-preset-babili-optimizations/compare/v0.1.2...v0.2.0) (2017-02-25)
 
