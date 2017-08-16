@@ -1,6 +1,6 @@
 # babel-preset-optimizations [![NPM version][npm-image]][npm-url]
 
-Babel preset for optimizations only babel-minify plugins
+Babel preset for optimizations only [babel-minify](https://github.com/babel/minify) plugins
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
