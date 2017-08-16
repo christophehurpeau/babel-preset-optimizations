@@ -46,10 +46,10 @@
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-config-pob": "^14.1.2",
+    "eslint-config-pob": "^15.0.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-prettier": "^2.2.0",
     "husky": "^0.14.3",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
