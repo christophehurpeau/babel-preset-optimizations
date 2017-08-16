@@ -1,3 +1,12 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.0.2...v1.1.0) (2017-08-16)
+
+
+### Features
+
+* add babel-plugin-minify-simplify and babel-plugin-transform-undefined-to-void ([7f17ba4](https://github.com/christophehurpeau/babel-preset-optimizations/commit/7f17ba4))
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.0.1...v1.0.2) (2017-08-16)
 
