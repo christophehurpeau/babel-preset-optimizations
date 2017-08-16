@@ -39,7 +39,9 @@
     "babel-plugin-minify-constant-folding": "^0.2.0",
     "babel-plugin-minify-dead-code-elimination": "^0.2.0",
     "babel-plugin-minify-guarded-expressions": "^0.2.0",
-    "babel-plugin-transform-inline-consecutive-adds": "^0.2.0"
+    "babel-plugin-minify-simplify": "^0.2.0",
+    "babel-plugin-transform-inline-consecutive-adds": "^0.2.0",
+    "babel-plugin-transform-undefined-to-void": "^6.8.3"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
