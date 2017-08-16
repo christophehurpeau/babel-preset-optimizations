@@ -14,7 +14,9 @@ Babel preset for optimizations only [babel-minify](https://github.com/babel/mini
 - [babel-plugin-minify-constant-folding](https://www.npmjs.com/package/babel-plugin-minify-constant-folding)
 - [babel-plugin-minify-dead-code-elimination](https://www.npmjs.com/package/babel-plugin-minify-dead-code-elimination)
 - [babel-plugin-minify-guarded-expressions](https://www.npmjs.com/package/babel-plugin-minify-guarded-expressions)
+- [babel-plugin-minify-simplify](https://www.npmjs.com/package/babel-plugin-minify-simplify)
 - [babel-plugin-transform-inline-consecutive-adds](https://www.npmjs.com/package/babel-plugin-transform-inline-consecutive-adds)
+- [babel-plugin-transform-undefined-to-void](https://www.npmjs.com/package/babel-plugin-transform-undefined-to-void)
 
 ## Install
 
