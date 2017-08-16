@@ -19,8 +19,8 @@ Babel preset for optimizations only babel-minify plugins
 ## Install
 
 ```bash
-npm install --save-dev babel-preset-babili-optimizations
-yarn add --dev babel-preset-babili-optimizations
+npm install --save-dev babel-preset-optimizations
+yarn add --dev babel-preset-optimizations
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ yarn add --dev babel-preset-babili-optimizations
 
 ```json
 {
-  "presets": ["babili-optimizations"]
+  "presets": ["optimizations"]
 }
 ```
 
@@ -45,7 +45,7 @@ babel script.js --presets babili-optimizations
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: [require('babel-preset-babili-optimizations')]
+  presets: [require('babel-preset-optimizations')]
 });
 ```
 
