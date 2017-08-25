@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-optimizations",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Babel preset for optimizations only babel-minify plugins",
   "keywords": [
     "babel-preset"

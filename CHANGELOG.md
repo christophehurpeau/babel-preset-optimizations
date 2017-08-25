@@ -1,3 +1,12 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.1.1...v1.2.0) (2017-08-25)
+
+
+### Bug Fixes
+
+* remove babel-plugin-transform-inline-consecutive-adds ([63c167b](https://github.com/christophehurpeau/babel-preset-optimizations/commit/63c167b))
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.1.0...v1.1.1) (2017-08-16)
 
