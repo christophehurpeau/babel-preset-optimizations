@@ -1,9 +1,16 @@
-# babel-preset-optimizations [![NPM version][npm-image]][npm-url]
+<h3 align="center">
+  babel-preset-optimizations
+</h3>
 
-Babel preset for optimizations only [babel-minify](https://github.com/babel/minify) plugins
+<p align="center">
+  Babel preset for optimizations only babel-minify plugins
+</p>
 
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
+<p align="center">
+  <a href="https://npmjs.org/package/babel-preset-optimizations"><img src="https://img.shields.io/npm/v/babel-preset-optimizations.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/babel-preset-optimizations"><img src="https://david-dm.org/christophehurpeau/babel-preset-optimizations.svg?style=flat-square"></a>
+  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations/badge?style=flat-square"></a>
+</p>
 
 ### Options
 
@@ -50,10 +57,3 @@ require("babel-core").transform("code", {
   presets: [require('babel-preset-optimizations')]
 });
 ```
-
-[npm-image]: https://img.shields.io/npm/v/babel-preset-optimizations.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/babel-preset-optimizations
-[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-optimizations.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-optimizations
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations
