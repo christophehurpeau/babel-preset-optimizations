@@ -1,3 +1,12 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.2.1...v1.3.0) (2018-04-06)
+
+
+### Features
+
+* update babel-plugin-minify to v0.3 ([59af737](https://github.com/christophehurpeau/babel-preset-optimizations/commit/59af737))
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.2.0...v1.2.1) (2017-08-26)
 
