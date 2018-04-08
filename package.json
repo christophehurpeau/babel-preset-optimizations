@@ -37,7 +37,7 @@
     "extends": ["@commitlint/config-conventional"]
   },
   "dependencies": {
-    "babel-plugin-minify-constant-folding": "^0.3.0",
+    "babel-plugin-minify-constant-folding": "^0.4.0",
     "babel-plugin-minify-dead-code-elimination": "^0.3.0",
     "babel-plugin-minify-guarded-expressions": "^0.3.0",
     "babel-plugin-minify-simplify": "^0.3.0",
