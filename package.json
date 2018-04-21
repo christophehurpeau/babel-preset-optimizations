@@ -7,7 +7,9 @@
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-optimizations.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-babili-optimizations",
-  "engines": { "node": ">=4.0.0" },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -Rf docs dist",
@@ -26,15 +28,21 @@
     "lib/**/*.json": ["prettier --write", "git add"],
     "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
-  "prettier": { "trailingComma": "es5", "singleQuote": true, "printWidth": 100 },
-  "commitlint": { "extends": ["@commitlint/config-conventional"] },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "dependencies": {
-    "babel-plugin-minify-constant-folding": "^0.3.0",
-    "babel-plugin-minify-dead-code-elimination": "^0.3.0",
-    "babel-plugin-minify-guarded-expressions": "^0.3.0",
-    "babel-plugin-minify-simplify": "^0.3.0",
-    "babel-plugin-transform-inline-consecutive-adds": "^0.3.0",
-    "babel-plugin-transform-undefined-to-void": "^6.9.0"
+    "babel-plugin-minify-constant-folding": "^0.4.0",
+    "babel-plugin-minify-dead-code-elimination": "^0.4.0",
+    "babel-plugin-minify-guarded-expressions": "^0.4.0",
+    "babel-plugin-minify-simplify": "^0.4.0",
+    "babel-plugin-transform-inline-consecutive-adds": "^0.4.0",
+    "babel-plugin-transform-undefined-to-void": "^6.9.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
