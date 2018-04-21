@@ -1,3 +1,12 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.4.0...v1.5.0) (2018-04-21)
+
+
+### Features
+
+* add options simplify and undefinedToVoid ([c9e3a40](https://github.com/christophehurpeau/babel-preset-optimizations/commit/c9e3a40))
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.3.0...v1.4.0) (2018-04-21)
 
