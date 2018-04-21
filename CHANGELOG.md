@@ -1,3 +1,12 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.3.0...v1.4.0) (2018-04-21)
+
+
+### Features
+
+* update dependencies and enable optimizeRawSize ([09ba5e7](https://github.com/christophehurpeau/babel-preset-optimizations/commit/09ba5e7))
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.2.1...v1.3.0) (2018-04-06)
 
