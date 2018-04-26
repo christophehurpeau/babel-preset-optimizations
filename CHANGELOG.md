@@ -1,3 +1,12 @@
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.0...v1.5.1) (2018-04-26)
+
+
+### Bug Fixes
+
+* simplify and undefinedToVoid are disabled by default ([d56e3c7](https://github.com/christophehurpeau/babel-preset-optimizations/commit/d56e3c7))
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.4.0...v1.5.0) (2018-04-21)
 
