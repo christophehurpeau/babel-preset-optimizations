@@ -49,7 +49,7 @@ yarn add --dev babel-preset-optimizations
 ### Via CLI
 
 ```sh
-babel script.js --presets babili-optimizations
+babel script.js --presets optimizations
 ```
 
 ### Via Node API
