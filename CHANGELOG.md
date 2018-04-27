@@ -1,3 +1,7 @@
+<a name="1.5.3"></a>
+## [1.5.3](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.2...v1.5.3) (2018-04-27)
+
+
 <a name="1.5.2"></a>
 ## [1.5.2](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.1...v1.5.2) (2018-04-26)
 
