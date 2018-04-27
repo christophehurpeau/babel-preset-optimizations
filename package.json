@@ -6,7 +6,7 @@
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-optimizations.git",
-  "homepage": "https://github.com/christophehurpeau/babel-preset-babili-optimizations",
+  "homepage": "https://github.com/christophehurpeau/babel-preset-optimizations",
   "engines": {
     "node": ">=4.0.0"
   },
