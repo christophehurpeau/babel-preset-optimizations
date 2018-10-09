@@ -1,3 +1,12 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.4...v1.6.0) (2018-10-09)
+
+
+### Features
+
+* update dependencies ([567d097](https://github.com/christophehurpeau/babel-preset-optimizations/commit/567d097))
+
+
 <a name="1.5.4"></a>
 ## [1.5.4](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.3...v1.5.4) (2018-07-06)
 
