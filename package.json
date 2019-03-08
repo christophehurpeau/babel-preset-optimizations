@@ -2,12 +2,10 @@
   "name": "babel-preset-optimizations",
   "version": "1.6.0",
   "description": "Babel preset for optimizations only babel-minify plugins",
-  "keywords": [
-    "babel-preset"
-  ],
+  "keywords": ["babel-preset"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
-  "repository": "git@github.com:christophehurpeau/babel-preset-optimizations.git",
+  "repository": "https://github.com:christophehurpeau/babel-preset-optimizations.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-optimizations",
   "engines": {
     "node": ">=6.5.0"
@@ -15,15 +13,14 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "clean": "rm -Rf dist",
     "lint": "eslint lib/",
-    "preversion": "yarn run lint && pob-repository-check-clean",
-    "release": "pob-repository-check-clean && pob-release",
+    "preversion": "yarn run lint && repository-check-dirty",
+    "release": "repository-check-dirty && pob-release",
     "version": "pob-version"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
       "post-checkout": "yarnhook",
       "post-merge": "yarnhook",
       "post-rewrite": "yarnhook",
@@ -31,18 +28,13 @@
     }
   },
   "lint-staged": {
+    "yarn.lock": ["yarn-update-lock", "git add"],
     "{package.json,.eslintrc.json}": [
-      "prettier --write",
+      "prettier --parser json --write",
       "git add"
     ],
-    "lib/**/*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "lib/**/*.js": [
-      "eslint --fix --quiet",
-      "git add"
-    ]
+    "lib/**/*.json": ["prettier --parser json --write", "git add"],
+    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -50,9 +42,7 @@
     "arrowParens": "always"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "dependencies": {
     "babel-plugin-minify-constant-folding": "^0.5.0",
@@ -63,16 +53,17 @@
     "babel-plugin-transform-undefined-to-void": "^6.9.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.2.1",
-    "@commitlint/config-conventional": "7.1.2",
-    "eslint": "5.9.0",
-    "eslint-config-pob": "24.0.2",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "8.0.0",
-    "husky": "1.2.0",
-    "lint-staged": "8.1.0",
-    "pob-release": "4.6.0",
-    "prettier": "1.15.2",
-    "yarnhook": "0.3.0"
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
+    "@pob/eslint-config": "29.0.1",
+    "@pob/eslint-config-node": "29.0.1",
+    "eslint": "5.15.1",
+    "husky": "1.3.1",
+    "lint-staged": "8.1.5",
+    "pob-release": "4.8.3",
+    "prettier": "1.16.4",
+    "repository-check-dirty": "1.0.2",
+    "yarn-update-lock": "0.3.2",
+    "yarnhook": "0.4.0"
   }
 }

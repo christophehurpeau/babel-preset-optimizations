@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://npmjs.org/package/babel-preset-optimizations"><img src="https://img.shields.io/npm/v/babel-preset-optimizations.svg?style=flat-square"></a>
   <a href="https://david-dm.org/christophehurpeau/babel-preset-optimizations"><img src="https://david-dm.org/christophehurpeau/babel-preset-optimizations.svg?style=flat-square"></a>
-  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-optimizations/badge?style=flat-square"></a>
 </p>
 
 ### Options

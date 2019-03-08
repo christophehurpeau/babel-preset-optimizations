@@ -7,6 +7,14 @@
       "entries": [
         "index"
       ]
+    },
+    "renovate": {
+      "enable": true
+    }
+  },
+  "babel-preset-optimizations": {
+    "type": {
+      "type": "lib"
     }
   }
 }
