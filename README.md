@@ -14,6 +14,7 @@
 ### Options
 
 - `keepFnName`: Prevent plugin from removing function name (Enabled by default).
+- `keepClassName`: Prevent plugin from removing class name (Enabled by default).
 - `simplify`: Enable [babel-plugin-minify-simplify](https://www.npmjs.com/package/babel-plugin-minify-simplify): makes the code a lot less readable (Disabled by default).
 - `undefinedToVoid`: Enable [babel-plugin-transform-undefined-to-void](https://www.npmjs.com/package/babel-plugin-transform-undefined-to-void): in babel, undefined is considered as unpure, so undefined !== 'string' will not be simplified unless you have this plugin (Disabled by default).
 
