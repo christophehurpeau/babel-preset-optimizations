@@ -3917,10 +3917,10 @@ yarn-deduplicate@^1.1.1:
     commander "^2.10.0"
     semver "^5.3.0"
 
-yarn-update-lock@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/yarn-update-lock/-/yarn-update-lock-0.3.2.tgz#87ba057fc222c5fe13b352579ea6560fe63dd53d"
-  integrity sha512-SidwZdrMCaJuiFL4Pb8hLYjfDsxUcvP2a5R+DwYSAAYjgRVKfej1OV95wa+T7M8jXLe9gXp8+9JZVkoeSa/Aqg==
+yarn-update-lock@0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/yarn-update-lock/-/yarn-update-lock-0.3.3.tgz#afa26484d19051f1a038bd143794de465fbf1ccf"
+  integrity sha512-4Y9qyRfKdeM9HCiuIyQu5gNNZCt7/ezpofZLm0/bkf0SY2y9ZG/Ovo66dadnZMIMnXQV7JIBAP00ELIatQYlhw==
   dependencies:
     yarn-deduplicate "^1.1.1"
 
