@@ -1,3 +1,12 @@
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.6.0...v1.7.0) (2019-03-09)
+
+
+### Features
+
+* add option keepClassName ([d55a386](https://github.com/christophehurpeau/babel-preset-optimizations/commit/d55a386))
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/christophehurpeau/babel-preset-optimizations/compare/v1.5.4...v1.6.0) (2018-10-09)
 
