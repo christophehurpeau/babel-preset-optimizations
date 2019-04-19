@@ -165,10 +165,10 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@pob/eslint-config-node@29.0.1":
-  version "29.0.1"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-29.0.1.tgz#37663683bebcaa1ff849f115c7c36aad3fd7756e"
-  integrity sha512-f3bw4ziVAc8NosKBwdB0y1BAb3WESRxcKqhPT6/do8HrgLadh9ckztRMgizuSJUoyPdFCrqsh7FgXikAEWaGEg==
+"@pob/eslint-config-node@30.0.0":
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-30.0.0.tgz#3854edacf69e6c7682cb1ddbf63eae3e02873f4e"
+  integrity sha512-RByEPdkVy1Z+Bpa5mQRMTj0cTK6fPi3upUULzIJ/j3HysVcFj+S5OAXp2Fu8O9OQExkaPeH1upiBykH1OCkxFw==
   dependencies:
     eslint-plugin-node "^8.0.1"
 
