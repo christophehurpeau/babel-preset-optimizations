@@ -8,33 +8,15 @@
   "repository": "https://github.com:christophehurpeau/babel-preset-optimizations.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-optimizations",
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">=10.13.0"
   },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "lint": "eslint lib/",
+    "lint": "eslint --quiet lib",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && pob-release",
     "version": "pob-version"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "post-checkout": "yarnhook",
-      "post-merge": "yarnhook",
-      "post-rewrite": "yarnhook",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "yarn.lock": ["yarn-update-lock", "git add"],
-    "{package.json,.eslintrc.json}": [
-      "prettier --parser json --write",
-      "git add"
-    ],
-    "lib/**/*.json": ["prettier --parser json --write", "git add"],
-    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -44,6 +26,7 @@
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
   },
+  "pob": {},
   "dependencies": {
     "babel-plugin-minify-constant-folding": "^0.5.0",
     "babel-plugin-minify-dead-code-elimination": "^0.5.0",
@@ -53,17 +36,14 @@
     "babel-plugin-transform-undefined-to-void": "^6.9.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.5.2",
-    "@commitlint/config-conventional": "7.5.0",
-    "@pob/eslint-config": "29.0.1",
-    "@pob/eslint-config-node": "29.0.1",
-    "eslint": "5.15.1",
-    "husky": "1.3.1",
-    "lint-staged": "8.1.5",
-    "pob-release": "4.8.3",
-    "prettier": "1.16.4",
-    "repository-check-dirty": "1.0.2",
-    "yarn-update-lock": "0.3.3",
-    "yarnhook": "0.4.0"
+    "@pob/eslint-config": "33.0.8",
+    "@pob/eslint-config-node": "33.0.0",
+    "@pob/repo-config": "1.0.3",
+    "@pob/version": "5.0.0",
+    "eslint": "6.7.2",
+    "husky": "3.1.0",
+    "pob-release": "5.1.0",
+    "prettier": "1.19.1",
+    "repository-check-dirty": "1.0.3"
   }
 }
