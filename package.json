@@ -44,6 +44,6 @@
     "husky": "3.1.0",
     "pob-release": "5.1.0",
     "prettier": "1.19.1",
-    "repository-check-dirty": "1.0.3"
+    "repository-check-dirty": "1.2.2"
   }
 }
