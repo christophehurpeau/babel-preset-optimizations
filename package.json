@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@pob/eslint-config": "40.0.0",
-    "@pob/eslint-config-node": "39.0.0",
+    "@pob/eslint-config-node": "40.0.0",
     "@pob/repo-config": "1.2.0",
     "@pob/version": "5.0.0",
     "eslint": "7.9.0",
