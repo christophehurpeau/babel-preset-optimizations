@@ -263,12 +263,12 @@
     "@pob/use-eslint-plugin" "^41.0.4"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@41.0.4":
-  version "41.0.4"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-41.0.4.tgz#d02edeba401ca410ff1e33e2ef5c4d9399f0d2dc"
-  integrity sha512-2N6Pf66UxHpnaobSUKD9fwJUDM1JzxTCu8lXoKw7ZpgU84FW0qE3OUIsCyU82a0BRCDfJAAiqTalobHkk3smYw==
+"@pob/eslint-config@41.1.0":
+  version "41.1.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-41.1.0.tgz#de240952e26165c1f6010e02c45300dbe2ccb818"
+  integrity sha512-hpqdDXpVO/rv6dLdhF38pbcKdX9SKNVvea2ADwgRSGl7kLhiTxvWRtuS96Pl7HBpf+V8REh/uqq6mFCvgsnZpw==
   dependencies:
-    "@pob/use-eslint-plugin" "^41.0.4"
+    "@pob/use-eslint-plugin" "^41.1.0"
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^6.11.0"
     eslint-plugin-unicorn "^23.0.0"
@@ -287,10 +287,10 @@
     yarn-deduplicate "1.1.1"
     yarnhook "^0.4.3"
 
-"@pob/use-eslint-plugin@^41.0.4":
-  version "41.0.4"
-  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.0.4.tgz#4c22cb6f6b002c65e985ebdc7902e2ebb29860d1"
-  integrity sha512-6zsXlFp2Z63D9ne9U+LdI2NyaP8kxkJr4BX46OgBbFOF5IrbSp7cXnbiZ38rXBdleTWHlSJ6onFr6wu6wtLNQQ==
+"@pob/use-eslint-plugin@^41.0.4", "@pob/use-eslint-plugin@^41.1.0":
+  version "41.1.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.1.0.tgz#e4e382e397251de42dfcc734e52997f56c22f8d3"
+  integrity sha512-rShOGgeYNMrLtGYsvjcBsDZ6T90U7w1IKLvof9hKXA9FBOy7XTosx1/apji1opqx9y6KNwEdsUsVdPJHh1ZT6A==
 
 "@pob/version@5.0.0":
   version "5.0.0"
