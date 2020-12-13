@@ -255,12 +255,12 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@pob/eslint-config-node@41.0.4":
-  version "41.0.4"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-41.0.4.tgz#0454b04bf5488386c5cd00488bdd4e4e590c5193"
-  integrity sha512-3jhvEEMNRLI+IRYRAGPHhE9PmD9sOpkCamMKpx2+81RWD5viG/5SRVMY4RXA9iYlWuaN1MVrW/mjnW7SaQtYzA==
+"@pob/eslint-config-node@41.1.0":
+  version "41.1.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-41.1.0.tgz#3640e357eea357a30432331e50ed0407a6df5ddc"
+  integrity sha512-94RjdOzlaPL9J5oE0/X1vS7Z7C4x9btRy0UFnl0jqnN3DdN9OMo3fgBkQMG/BlycVqwazCTN/BM9xrA8fCT0nQ==
   dependencies:
-    "@pob/use-eslint-plugin" "^41.0.4"
+    "@pob/use-eslint-plugin" "^41.1.0"
     eslint-plugin-node "^11.1.0"
 
 "@pob/eslint-config@41.1.0":
@@ -287,7 +287,7 @@
     yarn-deduplicate "1.1.1"
     yarnhook "^0.4.3"
 
-"@pob/use-eslint-plugin@^41.0.4", "@pob/use-eslint-plugin@^41.1.0":
+"@pob/use-eslint-plugin@^41.1.0":
   version "41.1.0"
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.1.0.tgz#e4e382e397251de42dfcc734e52997f56c22f8d3"
   integrity sha512-rShOGgeYNMrLtGYsvjcBsDZ6T90U7w1IKLvof9hKXA9FBOy7XTosx1/apji1opqx9y6KNwEdsUsVdPJHh1ZT6A==
