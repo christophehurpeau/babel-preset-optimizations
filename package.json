@@ -40,7 +40,7 @@
     "@pob/eslint-config-node": "41.1.0",
     "@pob/repo-config": "1.2.0",
     "@pob/version": "5.0.0",
-    "eslint": "7.15.0",
+    "eslint": "7.16.0",
     "husky": "3.1.0",
     "pob-release": "5.6.3",
     "prettier": "2.2.1",
