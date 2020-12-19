@@ -285,10 +285,10 @@
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.1.2.tgz#4352cfedc80de32b4f0b4eb1e598bb0c0118322f"
   integrity sha512-VnjOAi8roAAJrsJHKCklfa5aBL/sAb/Vw4D99icPNhOFTr+IKblJ0Z2Syr7ylQ93phLsKVot5RnixgSbEhwTDA==
 
-"@pob/version@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/version/-/version-5.0.0.tgz#0a3a4b17ec9a22bf727e73e9f6137071f5d4897d"
-  integrity sha512-UhTqMJep4Xpv59H3OcRhFU+6YSI8i24etVPo1wuiN1AO4wkGGXBPed8jeyAohkhqFAZnu42nsgFC/ifT8W7zQg==
+"@pob/version@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@pob/version/-/version-5.2.0.tgz#3648623343bd3ae741840583cf614e6a2a7afb3e"
+  integrity sha512-NbLAJVcxUZwDPCGITM4dexpHWMOZui03P65nNkXzr5iiALuWgrFw5nMiBliNOuo/S5HmE+BrQKWRhrddStMILQ==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
