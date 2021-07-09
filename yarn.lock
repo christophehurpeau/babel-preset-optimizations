@@ -261,12 +261,12 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@pob/eslint-config-node@41.1.2":
-  version "41.1.2"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-41.1.2.tgz#35aac645a39e56901d8d8daa0bdc9d1ab001415d"
-  integrity sha512-zpg+y/zjFrfMJwXkEPRVzOZLRUNxB/mRwybiS6tRwusBb21e8jYOcYjCKFP/vqTbFQ+QzsH4DHGYk0ys1cMzLA==
+"@pob/eslint-config-node@44.0.2":
+  version "44.0.2"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-44.0.2.tgz#7801a166e860de9b66683f960f068486c5d84748"
+  integrity sha512-WpKxeykainATltODxLXKBTfvYFJwlIqe9s23+zXj3a4qIYcWXcxFp8Q84NqiXTeA4ub1GmhCORQF7H34/FfjGw==
   dependencies:
-    "@pob/use-eslint-plugin" "^41.1.2"
+    "@pob/use-eslint-plugin" "^44.0.0"
     eslint-plugin-node "^11.1.0"
 
 "@pob/eslint-config@41.1.2":
@@ -297,6 +297,11 @@
   version "41.1.2"
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.1.2.tgz#4352cfedc80de32b4f0b4eb1e598bb0c0118322f"
   integrity sha512-VnjOAi8roAAJrsJHKCklfa5aBL/sAb/Vw4D99icPNhOFTr+IKblJ0Z2Syr7ylQ93phLsKVot5RnixgSbEhwTDA==
+
+"@pob/use-eslint-plugin@^44.0.0":
+  version "44.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-44.0.0.tgz#b0c042fcf1cffe19eb2eb1c82cd103ec04532b7e"
+  integrity sha512-/LeOqbJmGWZF0TZhdjq8Dg+SjhDGuQXoKy6kh3XgjLqp1QbgAl/3oOK7NDnA2dj6HSOWzsVDLtjuPTGhQcANuw==
 
 "@pob/version@5.2.0":
   version "5.2.0"
