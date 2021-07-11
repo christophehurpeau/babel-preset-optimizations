@@ -36,7 +36,7 @@
     "babel-plugin-transform-undefined-to-void": "^6.9.4"
   },
   "devDependencies": {
-    "@pob/eslint-config": "41.1.2",
+    "@pob/eslint-config": "45.0.2",
     "@pob/eslint-config-node": "44.0.2",
     "@pob/repo-config": "1.2.0",
     "@pob/version": "5.2.0",
