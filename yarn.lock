@@ -2911,10 +2911,10 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-repository-check-dirty@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-2.0.1.tgz#011a5a869b53dc164e2a0313b657c4f1ac6afc68"
-  integrity sha512-/w3RHNDvSCGWIqxxtA8TT8QLLoPsc6HyCHq34PCM3LXV1ltle3Ckib+QhaanDKpyclaY9GKmxJXDxby/+jyXFg==
+repository-check-dirty@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-4.0.0.tgz#57bae2a752a05dd0065cc66fe813db1ea43d73e8"
+  integrity sha512-lXLtsLzUU/4feC+ApeXN+g1dOSnN5TGqgseaQEQoMlCrc+4tTel3JHM0Pxy4L8/2jd02bIJ3KeAY9KMD4K1fjA==
 
 repository-check-dirty@^1.2.2:
   version "1.2.2"
