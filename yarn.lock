@@ -247,14 +247,13 @@
     "@pob/use-eslint-plugin" "^44.0.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@50.0.1":
-  version "50.0.1"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-50.0.1.tgz#3579ed4760668b643681336398e50adeaf3b60bd"
-  integrity sha512-qb1Mvj2l8/E3PfNGcQF5YYI8EQqxNLOTwNkYHpr+YDeeNmljEG6SbZmVmunNFnjF/bGrWaoHiqiy7+ZVDWPCCw==
+"@pob/eslint-config@50.0.4":
+  version "50.0.4"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-50.0.4.tgz#fdae571603980f310108368bc96d40425dc64c84"
+  integrity sha512-FKTtRj1P4OWTuFMt2jd7nEEE2/tk97w1iiWUe3YRRkUtXaIRiFUwxOCD3CmfF3oDXN6KX8RSQmv9XjcpmGOuwQ==
   dependencies:
-    "@pob/use-eslint-plugin" "50.0.0"
     eslint-config-airbnb-base "^15.0.0"
-    eslint-config-prettier "^8.7.0"
+    eslint-config-prettier "^8.8.0"
     eslint-plugin-import "^2.27.5"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-unicorn "^46.0.0"
@@ -272,11 +271,6 @@
     which-pm-runs "1.0.0"
     yarn-deduplicate "1.1.1"
     yarnhook "^0.4.3"
-
-"@pob/use-eslint-plugin@50.0.0":
-  version "50.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-50.0.0.tgz#9fe7bae3127521dc1d4af6519d53dda127042904"
-  integrity sha512-YZ7l2XPCf2Qixz0UMEo2ToAVurl6+kONO7Eq0ZG2iYBtLJ/mS+Fqs2YLk8ThXWY4ktcYv09t6NX1i/6Vz9kjTQ==
 
 "@pob/use-eslint-plugin@^44.0.0":
   version "44.0.0"
@@ -1176,10 +1170,10 @@ eslint-config-airbnb-base@^15.0.0:
     object.entries "^1.1.5"
     semver "^6.3.0"
 
-eslint-config-prettier@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
-  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
+eslint-config-prettier@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
+  integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
