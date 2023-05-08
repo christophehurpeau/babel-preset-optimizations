@@ -247,16 +247,16 @@
     "@pob/use-eslint-plugin" "^44.0.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@50.0.4":
-  version "50.0.4"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-50.0.4.tgz#fdae571603980f310108368bc96d40425dc64c84"
-  integrity sha512-FKTtRj1P4OWTuFMt2jd7nEEE2/tk97w1iiWUe3YRRkUtXaIRiFUwxOCD3CmfF3oDXN6KX8RSQmv9XjcpmGOuwQ==
+"@pob/eslint-config@50.0.5":
+  version "50.0.5"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-50.0.5.tgz#6c2ccf1a78a48e7477c042cd13f7c98a13ab1c92"
+  integrity sha512-YgpVV3PxhS/C7gBVWXfypFobwEHzebZRuZoKo7XerVb+cGGa5yrX8xCiHcESno5sE/yIL51FeUhDbIbRFPd1yQ==
   dependencies:
     eslint-config-airbnb-base "^15.0.0"
     eslint-config-prettier "^8.8.0"
     eslint-plugin-import "^2.27.5"
     eslint-plugin-node "^11.1.0"
-    eslint-plugin-unicorn "^46.0.0"
+    eslint-plugin-unicorn "^46.0.1"
 
 "@pob/repo-config@1.2.0":
   version "1.2.0"
@@ -1232,10 +1232,10 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-unicorn@^46.0.0:
-  version "46.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-46.0.0.tgz#b5cdcc9465fd6e46ab7968b87dd4a43adc8d6031"
-  integrity sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==
+eslint-plugin-unicorn@^46.0.1:
+  version "46.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-46.0.1.tgz#222ff65b30b2d9ed6f90de908ceb6a05dd0514d9"
+  integrity sha512-setGhMTiLAddg1asdwjZ3hekIN5zLznNa5zll7pBPwFOka6greCKDQydfqy4fqyUhndi74wpDzClSQMEcmOaew==
   dependencies:
     "@babel/helper-validator-identifier" "^7.19.1"
     "@eslint-community/eslint-utils" "^4.1.2"
