@@ -2922,10 +2922,10 @@ regjsparser@^0.10.0:
   dependencies:
     jsesc "~0.5.0"
 
-repository-check-dirty@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-5.1.1.tgz#486924e2a40066f6149c1f70c35c46f47648ccdd"
-  integrity sha512-Y189rjL9t/U6zB5p1ZBJ4nCYYGWqzzo1oCnEKbaEv2Yd1PN70fccYBlDnPQsz+EUmmOqBWSIu2Sp+QU+8AEIRQ==
+repository-check-dirty@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-6.0.0.tgz#c2ed3247aad9b523e8c94ccd177f8b0289dc5aed"
+  integrity sha512-FNknbu4kdy59qYaiPUapAfCrnEMQL3x3PESNWxIy1DpcWsGJ3xJ0Xh7mLdC3GRD7W888YAqHtkoDcnhggArGvA==
 
 repository-check-dirty@^1.2.2:
   version "1.2.2"
