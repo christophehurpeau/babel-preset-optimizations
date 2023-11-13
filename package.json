@@ -43,7 +43,7 @@
     "eslint": "8.53.0",
     "husky": "8.0.3",
     "pob-release": "5.6.3",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "repository-check-dirty": "6.2.0"
   }
 }
