@@ -252,10 +252,10 @@
     "@pob/use-eslint-plugin" "^44.0.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@51.2.2":
-  version "51.2.2"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-51.2.2.tgz#71dc0cd3ce4527dd9b398e6c64fdd1148120fec2"
-  integrity sha512-4EGmUDyN2j5lilIPdhVeOSZrlKhRYVZPhYbu+HVo/cT0uQxniNCHM/UML6cK87gu6DCKrPPx6pn4N8IrvYOYkA==
+"@pob/eslint-config@52.0.0":
+  version "52.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-52.0.0.tgz#2a8cd3ab201f60f0593129dca29c089322ea6a53"
+  integrity sha512-dkPEMxqVMrfhrW5h8gkLDlPUe+yn2uIcN4+VBdeyZPl6Zcm4seKYdHNi+Drq2DR613H2EzG5hItmd9nNvdr2iQ==
   dependencies:
     eslint-config-airbnb-base "^15.0.0"
     eslint-config-prettier "^9.1.0"
