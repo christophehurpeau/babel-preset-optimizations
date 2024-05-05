@@ -3112,10 +3112,10 @@ regjsparser@^0.10.0:
   dependencies:
     jsesc "~0.5.0"
 
-repository-check-dirty@6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-6.3.2.tgz#f3783778e3e11386620c7b3907e7d7e124bb30ea"
-  integrity sha512-NzogDEVWjLR9J35pzE/WXvSHxFvSERSww8GxDvlSRwWx3qigpy/TXPRe+ZXnUAYM+yTHAh2B4ksqX9+w0G+ljg==
+repository-check-dirty@6.3.3:
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/repository-check-dirty/-/repository-check-dirty-6.3.3.tgz#418ad583a13799765bc79be29920fe1ee25b2566"
+  integrity sha512-T/JuYqqfs3g4/tLlWFCQPJKuszhZ0o3nerrT2jn+Ppi/1zXx44dLH+7HqwXIjvJCJrWMngtkfB858s8wDG9iSw==
 
 repository-check-dirty@^1.2.2:
   version "1.2.2"
